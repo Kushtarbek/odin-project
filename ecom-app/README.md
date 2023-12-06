@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Features to be added:
+
+- API calls for adding new items, removing an item - simple page to add new items
+- Data fetching - for temperature e.g. weather for 3 locations
+- ChatGPT integration - AI helper with products description and use
+- Display graphs, diagrams - price & tax comparison based on different states
+-

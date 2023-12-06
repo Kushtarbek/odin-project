@@ -5,10 +5,11 @@ import Carousel from './Carousel'
 
 function Header() {
   return (
-    <header> 
+    <div>
       <Naviagation/>
-      <Carousel/>
-    </header>
+      <Carousel />
+
+      </div>
   );
 }
 
