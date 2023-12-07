@@ -19,7 +19,7 @@ const Carousel = () => {
 
   return (
     <div style={{display: 'flex', justifyContent: 'space-around'}}>
-      <button onClick={nextText}>{'<'}</button>
+      <button onClick={prevText}>{'<'}</button>
       <h2>{texts[currentIndex]}</h2>
       <button onClick={nextText}>{'>'}</button>
     </div>
