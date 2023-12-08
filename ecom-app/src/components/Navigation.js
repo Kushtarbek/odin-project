@@ -1,4 +1,3 @@
-// components/Header.js
 import React from 'react';
 import { IoIosSearch } from "react-icons/io";
 import { IoBagOutline } from "react-icons/io5";
