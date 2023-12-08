@@ -42,8 +42,9 @@ const Products = () => {
 
   return (
     <div>
-      <h2>Apple Products</h2>
       <div className="product-container">
+      <button class="circle-button" onClick={showPrevItems}>&lt;</button>
+      
         {products.map((product, index) => (
           <div key={product.id} className="product">
             <img
@@ -54,9 +55,9 @@ const Products = () => {
             <p>{product.name}</p>
           </div>
         ))}
+        <button class="circle-button" onClick={showNextItems}>&gt;</button>
       </div>
-      <button onClick={showPrevItems}>&lt;</button>
-      <button onClick={showNextItems}>&gt;</button>
+    
     </div>
   );
 };
