@@ -45,7 +45,7 @@
   margin: 0;
   display: flex;
   justify-content: center; /* Center horizontally */
-  height: 100vh; 
+ 
 }
 
 .horizontal-list li {
